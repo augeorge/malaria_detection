@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # data set
-test/cell_images
+cell_images/
