@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
 # Load the model
-model = load_model('malaria_detection_model.h5')
+model = load_model('deploy/malaria_detection_model.h5')
 
 # Define the Flask app
 app = Flask(__name__)
